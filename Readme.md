@@ -1,4 +1,4 @@
-# Baby Sokoban Progrmm für die Übungen Einführung in CE 
+# Baby Sokoban Python Programm
 
 ## Vorbereitungen: python, pip und pygame
 
@@ -7,8 +7,8 @@
 - Sie sind nicht allein. Hören sie sich bei ihren Kommilitonen um, wer schon Erfolg hatte und versuchen sie gemeinsam die Installation zu meistern.
 - KI Prompts sind für Basisdinge die auf diesem Planeten schon millionenfach gemacht wurden ein guter Startpunkt, z.B.: "wie installiere ich pip auf ubuntu 22.04?"
 - Möglicherweise gibt es für Ihr Betriebssystem spezielle Anleitungen die sie auf den Webseiten des Anbieters finden.
-- Wenn Sie "irgendwo" im Web suchen, achten sie stets auf aktuelle und vertrauenswürdige Quellen.
-- Die Welt der Informatik dreht sich schnell und ihr Computer wird durch seine Nutzung zu einem Individuum für das sie selbst die Verantwortung tragen.
+- Suchen sie nicht "irgendwo" im Web, achten sie stets auf aktuelle und vertrauenswürdige Quellen.
+- Die Welt der Informatik dreht sich schnell und ihr Computer wird durch seine Benutzung schnell zu einem Individuum für das sie selbst die Verantwortung tragen.
 - Versuchen Sie am Beginn Ihrer Reise auf den bewährten und oft gegangenen Wegen zu bleiben und so wenig wie möglich individuell anzupassen. 
 
 ### python
@@ -43,9 +43,12 @@ Links:
 - Python in Visual Studio Code https://code.visualstudio.com/docs/languages/python
 - Erweiterungen (Extensions) https://code.visualstudio.com/docs/editor/extension-marketplace
 
-Für Visual Studio Code gibt es viele Erweiterungen. Installieren sie im Visaul Studio nur den "Code Python language support" von Microsoft (für alle OS). 
+Für Visual Studio Code gibt es viele Erweiterungen. Installieren sie im Visaul Studio den "Code Python language support" von Microsoft (für alle OS). 
 
-## my_sokoban1 Quellcode
-Laden sie die .zip Datei herunter und entpacken sie diese in einem neuen, leeren Verzeichnis `my_sokoban1`. Suchen sie dafür einen Ort in ihrem persönlichen Bereich des Dateisystems (home Verzeichnis, Documents, ...) auf den sie volle Zugriffsrechte haben. Bedenken Sie, dass sich im Verlauf des Studiums viele solche Verzeichnisse mit vieln Daten ansammeln werden. Die meisten Studierenden ordnen diese Verzeichnisse nach Semester und/oder Modulname (CE59) in einer Hierarchie von Unterverzeichnissen an. Machen sie sich auch kundig, wie diese Verzeichnisse gesichert werden können (lokales Backup, Clouddienste). Wir erleben gelegentlich Verzweiflung und Panikattacken wenn wieder einmal "der Hund" den Quelltext oder das ganze Laptop "gefressen" hat. Kein Backup, kein Mitleid. Tipp: Die HTW betreibt einen gitlab Server https://gitlab.rz.htw-berlin.de/. Die Benutzung wird noch erklärt und ist hier nur für Fortgeschrittene gedacht.
+## baby_sokoban Quellcode
+Klonen sie dieses Repository in ein neues leeres Verzeichnis auf ihrem Computer.
+Das geht im Visual Studio Code mit der git Erweiterung (oder in einer Shell mit `git clone https://github.com/FrankBau/baby_sokoban.git`).  
+Suchen sie dafür einen Ort in ihrem persönlichen Bereich des Dateisystems (home Verzeichnis, Documents, ...) auf den sie volle Zugriffsrechte haben. 
+Bedenken Sie, dass sich im Verlauf des Studiums viele solche Verzeichnisse mit vieln Daten ansammeln werden. Die meisten Studierenden ordnen diese Verzeichnisse nach Semester und/oder Modulname (CE59) in einer Hierarchie von Unterverzeichnissen an. Machen sie sich auch kundig, wie diese Verzeichnisse gesichert werden können (lokales Backup, Clouddienste). Wir erleben gelegentlich Verzweiflung und Panikattacken wenn wieder einmal "der Hund" den Quelltext oder das ganze Laptop "gefressen" hat. Kein Backup, kein Mitleid. Tipp: Die HTW betreibt einen gitlab Server https://gitlab.rz.htw-berlin.de/. Die Benutzung wird noch erklärt und ist hier nur für Fortgeschrittene gedacht.
 
-Sie müssen im Visual Studio Code immer zuerst das Verzeichnis (== Ordner, folder, directory,...) des Projektes (`my_sokoban1`) öffnen, nicht nur die einzelnen Dateien oder ein anderes Verzeichnis.
+Sie müssen im Visual Studio Code immer zuerst das Verzeichnis (== Ordner, folder, directory,...) des Projektes (`baby_sokoban`) öffnen, nicht nur die einzelnen Dateien oder ein anderes Verzeichnis.
